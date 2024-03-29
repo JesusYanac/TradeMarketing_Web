@@ -77,8 +77,11 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Scaffold(
         body: Row(
           children: [
-            Expanded(
-                flex: 1,
+            Container(
+                width: MediaQuery.of(context).size.width * 0.2,
+                constraints: const BoxConstraints(
+                  minWidth: 220
+                ),
                 child: CustomScrollView(
                   slivers: <Widget>[
                     const SliverAppBar(
