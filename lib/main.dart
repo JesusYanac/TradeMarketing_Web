@@ -86,7 +86,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       expandedHeight: 200.0,
                       backgroundColor: Color.fromRGBO(60, 63, 65, 1.0),
                       flexibleSpace: FlexibleSpaceBar(
-                        title: Text('Demo')
+                        title: Text('VISTONY'),
+                        background: FlutterLogo(),
                       ),
                     ),
                     SliverList(
