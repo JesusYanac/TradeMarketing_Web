@@ -30,6 +30,10 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/web/canvaskit/
+/build/web/canvaskit/canvaskit.wasm:27873
+/build/web/canvaskit/chromium/canvaskit.wasm:25953
+/build/web/canvaskit/skwasm.wasm:15361
+
 
 # Symbolication related
 app.*.symbols
